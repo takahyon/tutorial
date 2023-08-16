@@ -10,15 +10,10 @@
   ],
   "packageRules": [
     {
-      "matchPaths": [".github/workflows/*"], 
-      "matchUpdateTypes": ["major"],
-      "groupName": "[Renovate]major dependencies"
-    },
-    {
-      "matchPaths": [".github/workflows/*"], 
-      "matchUpdateTypes": ["patch", "minor"],
-      "groupName": "[Renovate]minor and patch dependencies"
+      "fileMatch": ["^\\.github/workflows/[^/]+\\.ya?ml$"],
+      "matchUpdateTypes": ["major","patch", "minor"],
+      "groupName": "[Renovate] Github workflows dependencies"
     }
   ],
-  "prHourlyLimit":0
+  "prHourlyLimit": 0
 }
