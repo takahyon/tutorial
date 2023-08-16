@@ -10,8 +10,8 @@
   ],
   "packageRules": [
     {
-      "matchDepTypes": ["dependencies"],
-      "groupName": "all dependencies"
+      "matchDepTypes": ["major"],
+      "groupName": "major dependencies update"
     },
     {
       "matchUpdateTypes": ["patch", "minor"],
