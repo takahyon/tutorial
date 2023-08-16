@@ -10,13 +10,14 @@
   ],
   "packageRules": [
     {
+      "matchPaths": [".github/workflows/*"], 
       "matchUpdateTypes": ["major"],
-      "groupName": "major dependencies update"
+      "groupName": "[Renovate]major dependencies"
     },
     {
+      "matchPaths": [".github/workflows/*"], 
       "matchUpdateTypes": ["patch", "minor"],
-      "excludePackageNames": ["typescript"],
-      "groupName": "minor and patch dependencies"
+      "groupName": "[Renovate]minor and patch dependencies"
     }
   ],
   "prHourlyLimit":0
