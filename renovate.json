@@ -12,6 +12,10 @@
     {
       "depTypeList": ["dependencies"],
       "groupName": "all dependencies"
+    },
+    {
+      "depTypeList": ["updates"],
+      "groupName": "all updates"
     }
   ]
 }
