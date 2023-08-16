@@ -10,7 +10,7 @@
   ],
   "packageRules": [
     {
-      "fileMatch": ["^\\.github/workflows/[^/]+\\.ya?ml$"],
+      "matchFileNames": [".github/workflows/**"],
       "matchUpdateTypes": ["major","patch","minor"],
       "groupName": "Github workflows"
     }
