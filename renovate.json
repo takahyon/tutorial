@@ -10,11 +10,11 @@
   ],
   "packageRules": [
     {
-      "depTypeList": ["dependencies"],
+      "matchDepTypes": ["dependencies"],
       "groupName": "all dependencies"
     },
     {
-      "depTypeList": ["updates"],
+      "matchDepTypes": ["updates"],
       "groupName": "all updates"
     }
   ]
