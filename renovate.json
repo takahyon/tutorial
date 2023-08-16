@@ -18,5 +18,6 @@
       "excludePackageNames": ["typescript"],
       "groupName": "minor and patch dependencies"
     }
-  ]
+  ],
+  "prHourlyLimit":0
 }
