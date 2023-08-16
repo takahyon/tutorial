@@ -11,8 +11,8 @@
   "packageRules": [
     {
       "fileMatch": ["^\\.github/workflows/[^/]+\\.ya?ml$"],
-      "matchUpdateTypes": ["major","patch", "minor"],
-      "groupName": "[Renovate] Github workflows dependencies"
+      "matchUpdateTypes": ["major","patch","minor"],
+      "groupName": "Github workflows"
     }
   ],
   "prHourlyLimit": 0
