@@ -10,7 +10,7 @@
   ],
   "packageRules": [
     {
-      "matchDepTypes": ["major"],
+      "matchUpdateTypes": ["major"],
       "groupName": "major dependencies update"
     },
     {
