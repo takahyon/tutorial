@@ -14,8 +14,9 @@
       "groupName": "all dependencies"
     },
     {
-      "matchDepTypes": ["updates"],
-      "groupName": "all updates"
+      "matchUpdateTypes": ["patch", "minor"],
+      "excludePackageNames": ["typescript"],
+      "groupName": "minor and patch dependencies"
     }
   ]
 }
