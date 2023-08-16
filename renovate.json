@@ -3,5 +3,9 @@
   "extends": [
     "config:base"
   ],
-  "rangeStrategy": "widen"
+  "rangeStrategy": "widen",
+  "dependencyDashboard": true,
+  "labels": [
+    "dependencies"
+  ]
 }
