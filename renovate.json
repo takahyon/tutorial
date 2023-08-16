@@ -7,5 +7,11 @@
   "dependencyDashboard": true,
   "labels": [
     "dependencies"
+  ],
+  "packageRules": [
+    {
+      "depTypeList": ["dependencies"],
+      "groupName": "all dependencies"
+    }
   ]
 }
